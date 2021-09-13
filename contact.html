@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" href="./img/quill.png" type="image/x-icon" />
+    <title>Coding Journal</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">about me</a></li>
+          <li><a href="journal.html">Journal</a></li>
+          <li><a class="active" href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <figure>
+        <a href="index.html"
+          ><img
+            class="arrow arrowR"
+            src="./img/arrow.png"
+            alt="arrow_button to navigate back to the start"
+            title="Back to Start"
+        /></a>
+        <a href="journal.html"
+          ><img
+            class="arrow arrowL"
+            src="./img/arrow.png"
+            alt="arrow_button to navigate back to the journal page"
+            title="Read in the journal again?"
+        /></a>
+      </figure>
+      <div class="blurBox contact">
+        <form method="POST" action="#">
+          <p class="bold">Drop me a line</p>
+          <p class="textEnd semibold">i would love to read from you</p>
+          <input type="text" name="Name" id="name" placeholder="Your Name" />
+          <input
+            type="email"
+            name="Email"
+            id="emai"
+            placeholder="Your Email"
+            required
+          />
+          <textarea
+            name="text"
+            id="text"
+            cols="30"
+            rows="10"
+            placeholder="please use the send option in the footer to write me"
+          ></textarea>
+          <button class="submit semibold" type="submit">send</button>
+        </form>
+        <div class="center">
+          <p class="bold">want more?</p>
+          <p class="textEnd semibold">Here are some options</p>
+
+          <!-- <img
+            class="arrowDown"
+            src="./img/arrow1.png"
+            alt="arrow pinting down"
+          /> -->
+          <div>
+            <a
+              href="#https://codepen.io/Fizzi_Fou"
+              class="fa fa-codepen fa-3x"
+            ></a>
+            <a href="#" class="fa fa-twitter fa-3x"></a>
+            <a href="https://github.com/loerk" class="fa fa-github fa-3x"></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="foot">
+        <p class="footPos">&copy; 2021</p>
+        <p>
+          <a
+            href="https://codepen.io/Fizzi_Fou"
+            class="fa fa-codepen"
+            target="_blank"
+            title="codepen"
+          ></a>
+          <a
+            href="https://twitter.com/Twitter"
+            class="fa fa-twitter"
+            target="_blank"
+            title="twitter"
+          ></a>
+          <a
+            href="https://github.com/loerk"
+            class="fa fa-github"
+            target="_blank"
+            title="github"
+          ></a>
+          <a
+            href="mailto:fra.se@posteo.net"
+            class="fa fa-send"
+            target="_blank"
+            title="send email"
+          ></a>
+        </p>
+        <p class="footPos">
+          <a class="link" href="#impressum.html">Impressum</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
