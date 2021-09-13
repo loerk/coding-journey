@@ -84,7 +84,6 @@ nav ul li .active {
   margin-top: 2em;
 }
 .blurBox {
-  /* border: solid 1px white; */
   width: 70%;
   padding: 2rem;
   margin: 5% auto;
@@ -229,8 +228,8 @@ nav ul li .active {
 
 .pinBox p {
   width: 30%;
-  height: 200px;
-  margin: 0 auto;
+  height: 150px;
+  margin: 1em auto;
   padding: 1em;
   text-transform: uppercase;
   text-align: center;
