@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(../img/pc.jpg);
+  background-image: url(../img/maze.jpg);
   background-size: cover;
   width: 100%;
   background-repeat: no-repeat;
@@ -28,7 +28,8 @@ h1 {
 
 nav {
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.749);
+  background-color: rgba(26, 25, 25);
+  box-shadow: -5px 6px 10px #3c3e3f;
 }
 nav ul {
   display: flex;
@@ -44,14 +45,18 @@ nav ul li a {
   display: inline-block;
   padding: 15px;
   text-decoration: none;
-  color: black;
+  color: white;
+  font-weight: bold;
 }
-
+nav ul li a:hover {
+  color: rgba(26, 25, 25);
+}
 nav ul li:hover {
-  background-color: rgba(255, 255, 255, 0.749);
+  background-color: rgb(255, 255, 255);
 }
 nav ul li .active {
-  background-color: rgb(211, 213, 212);
+  background-color: rgb(255, 255, 255);
+  color: rgba(26, 25, 25);
 }
 
 /* +++++++++++++   General page stylings   ++++++++++++++*/
@@ -291,16 +296,17 @@ textarea {
 
 .submit {
   cursor: pointer;
-  padding: 0.5em;
-  min-width: 12%;
+  text-decoration: none;
+  padding: 1em;
+  min-width: 13%;
   margin-top: 3%;
   background-color: rgba(26, 25, 25);
-  border: rgba(26, 25, 25) 0.6em solid;
   text-transform: uppercase;
   font-size: 1.2em;
 }
+
 .submit:hover {
-  background-color: rgba(255, 255, 255, 0.557);
+  background-color: rgb(255, 255, 255);
   color: rgba(26, 25, 25);
 }
 
@@ -309,7 +315,7 @@ footer {
   position: fixed;
   width: 100%;
   margin: 0 auto;
-  padding: 0.5em;
+  padding: 0em;
   bottom: 0;
   background-color: rgba(26, 25, 25);
   color: white;
