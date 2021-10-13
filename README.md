@@ -1,6 +1,6 @@
 ## **This is my Coding Journal**
 
-:boom: :boom: **### I am doing it!** :boom: :boom:
+### :boom: :boom: **I am doing it!** :boom: :boom:
 
 I seriously start to learn this shit now and i hopefully will be damn good in it in a couple of years :)
  
