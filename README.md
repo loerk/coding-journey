@@ -14,4 +14,4 @@ So, if you are seriously (randomly also counts) interested in that, you can chec
 > :bulb: *Sidenote* : Its not responsive yet. 
 So don't even think about opening it on your mobile devices ;)
 
-:hot_pepper::hot_pepper::hot_pepper::hot_pepper::hot_pepper:
+# :hot_pepper::hot_pepper::hot_pepper::hot_pepper::hot_pepper:
