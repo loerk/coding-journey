@@ -311,7 +311,7 @@ textarea {
 
 /* ++++++++++++++   footer stylings  ++++++++++++++*/
 footer {
-  position: fixed;
+  position: relative;
   width: 100%;
   margin: 0 auto;
   padding: 0em;
@@ -336,7 +336,7 @@ footer {
   padding-top: 0.4em;
 }
 
-/* ++++++++++++++   Ipressum stylings  ++++++++++++++*/
+/* ++++++++++++++   Impressum stylings  ++++++++++++++*/
 
 .imp {
   display: flex;
